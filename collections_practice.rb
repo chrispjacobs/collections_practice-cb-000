@@ -51,4 +51,4 @@ def find_a(array)
   altered_array
 end
 
-puts find_a(["Easley", "determination", "augmentation" "thought", "pop", "rejuvenation", "amazing"])
+puts find_a(["Easley", "determination", "augmentation", "thought", "pop", "rejuvenation", "amazing"])
