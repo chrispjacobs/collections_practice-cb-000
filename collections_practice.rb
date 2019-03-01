@@ -69,4 +69,4 @@ def add_s(array)
   end
 end
 
-puts sum_array([1, 2, 3, 4])
+puts add_s(["dog", "each", "killer", "handle"])
