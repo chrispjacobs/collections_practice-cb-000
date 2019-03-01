@@ -19,5 +19,5 @@ def sort_array_char_count(array)
     end
   end
 end
-  
+
 puts sort_array_asc([3, 5, 8, 1, 2])
