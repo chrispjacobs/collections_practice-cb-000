@@ -61,4 +61,9 @@ def sum_array(array)
   new_array.inject(0) {|result, element| result + element}
 end
 
+def add_s(array)
+  array.each_with_index.collect do |element, index|
+    if index != 2
+      element = element + "s"
+
 puts sum_array([1, 2, 3, 4])
