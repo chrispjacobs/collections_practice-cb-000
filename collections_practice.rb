@@ -54,7 +54,7 @@ end
 def find_a_other(array)
   i = 0
   array.each do |word|
-  if word.start_with?("a") == false || word.start_with?("A") == false
+  if word.start_with?("a") == false && word.start_with?("A") == false
     array.delete(i)
     i += 1
   else
@@ -63,6 +63,3 @@ def find_a_other(array)
 end
   array
 end
-
-
-puts "Configuration".start_with?("C")
