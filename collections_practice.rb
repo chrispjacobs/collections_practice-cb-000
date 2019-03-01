@@ -27,4 +27,4 @@ def swap_elements(array)
   array[2] = switch_to_3
 end
 
-puts sort_array_char_count(["Easley", "determination", "thought", "pop", "rejuvenation"])
+puts swap_elements(["Easley", "determination", "thought", "pop", "rejuvenation"])
