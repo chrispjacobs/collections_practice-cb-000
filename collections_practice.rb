@@ -51,17 +51,6 @@ def find_a(array)
   altered_array
 end
 
-def find_a_other(array)
-  i = 0
-  array.each do |word|
-  if word.start_with?("a") == false && word.start_with?("A") == false
-    array.delete(i)
-    i += 1
-  else
-    i +=1
-  end
+def sum_array(array)
+  array.inject(0) {|result, element| result + element}
 end
-  array
-end
-
-puts find_a_other(["Easley", "determination", "augmentation", "Bob", "Arthur"])
