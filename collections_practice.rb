@@ -35,7 +35,7 @@ end
 def kesha_maker(array)
   array.each do |word|
     if word.size > 2
-      word[3] = $
+      word[3] = "$"
     end
   end
   array
