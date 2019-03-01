@@ -63,3 +63,5 @@ def find_a_other(array)
 end
   array
 end
+
+puts find_a_other(["Easley", "determination", "augmentation", "Bob", "Arthur"])
