@@ -43,13 +43,9 @@ end
 
 def find_a(array)
   altered_array = []
-  i = 0
   array.each do |word|
-    if word[i] == "a"
+    if word[0] == "a"
       altered_array << word[i]
-      i += 1
-    else
-      i += 1
     end
   end
   altered_array
