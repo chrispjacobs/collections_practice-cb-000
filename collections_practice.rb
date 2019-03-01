@@ -55,4 +55,4 @@ def find_a(array)
   altered_array
 end
 
-puts kesha_maker(["Easley", "determination", "thought", "pop", "rejuvenation"])
+puts find_a(["Easley", "determination", "augmentation" "thought", "pop", "rejuvenation", "amazing"])
