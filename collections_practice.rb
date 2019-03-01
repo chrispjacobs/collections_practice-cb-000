@@ -66,6 +66,7 @@ def add_s(array)
     unless index == 1
     element = element + "s"
   end
+  end
 end
 
 puts add_s(["dog", "each", "killer", "handle"])
