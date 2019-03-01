@@ -41,4 +41,18 @@ def kesha_maker(array)
   array
 end
 
+def find_a(array)
+  altered_array = []
+  i = 0
+  array.each do |word|
+    if word[i] == "a"
+      altered_array << word[i]
+      i += 1
+    else
+      i += 1
+    end
+  end
+  altered_array
+end
+
 puts kesha_maker(["Easley", "determination", "thought", "pop", "rejuvenation"])
