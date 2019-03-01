@@ -44,11 +44,24 @@ end
 def find_a(array)
   altered_array = []
   array.each do |word|
-    if word[0] == "a"
+    if word[0] == "a" || word[0] == "A"
       altered_array << word
     end
   end
   altered_array
 end
+
+def find_a_other(array)
+  i = 0
+  array.each do |word|
+  if word.start_with?("a") == false || word.start_with?("A") == false
+    array.delete(i)
+    i += 1
+  else
+    i +=1
+  end
+  array
+end
+    
 
 puts find_a(["Easley", "determination", "augmentation", "thought", "pop", "rejuvenation", "amazing"])
