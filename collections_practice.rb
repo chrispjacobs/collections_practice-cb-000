@@ -54,3 +54,5 @@ end
 def sum_array(array)
   array.inject(0) {|result, element| result + element}
 end
+
+puts sum_array([1, 2, 3, 4])
