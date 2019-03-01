@@ -41,4 +41,4 @@ def kesha_maker(array)
   array
 end
 
-puts swap_elements(["Easley", "determination", "thought", "pop", "rejuvenation"])
+puts kesha_maker(["Easley", "determination", "thought", "pop", "rejuvenation"])
