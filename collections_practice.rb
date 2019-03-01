@@ -54,7 +54,7 @@ end
 def sum_array(array)
   new_array = []
   array.each do |element|
-    if element.class == fixnum
+    if element.class == Fixnum
       new_array << element
     end
   end
