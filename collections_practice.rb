@@ -71,5 +71,3 @@ def add_s(array)
   end
   altered_array
 end
-
-puts add_s(["dog", "each", "killer", "handle"])
