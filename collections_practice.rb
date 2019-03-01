@@ -20,4 +20,11 @@ def sort_array_char_count(array)
   end
 end
 
+def swap_elements(array)
+  switch_to_3 = array[1]
+  switch_to_2 = array[2]
+  array[1] = switch_to_2
+  array[2] = switch_to_3
+end
+
 puts sort_array_char_count(["Easley", "determination", "thought", "pop", "rejuvenation"])
