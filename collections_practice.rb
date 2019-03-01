@@ -54,7 +54,7 @@ end
 def sum_array(array)
   new_array = []
   new_array = array.collect do |element|
-    element.class = "integer"
+    element.class = fixnum
   end
   array.inject(0) {|result, element| result + element}
 end
