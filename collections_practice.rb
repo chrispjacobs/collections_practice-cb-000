@@ -25,6 +25,7 @@ def swap_elements(array)
   switch_to_2 = array[2]
   array[1] = switch_to_2
   array[2] = switch_to_3
+  array
 end
 
 puts swap_elements(["Easley", "determination", "thought", "pop", "rejuvenation"])
