@@ -28,4 +28,8 @@ def swap_elements(array)
   array
 end
 
+def reverse_array(array)
+  array.reverse
+end
+
 puts swap_elements(["Easley", "determination", "thought", "pop", "rejuvenation"])
