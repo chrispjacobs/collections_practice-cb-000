@@ -65,4 +65,4 @@ end
 end
 
 
-puts find_a_other(["Easley", "determination", "augmentation", "thought", "pop", "rejuvenation", "amazing"])
+puts "Configuration".start_with?("A")
