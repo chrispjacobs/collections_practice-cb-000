@@ -65,4 +65,4 @@ end
 end
 
 
-puts "Configuration".start_with?("A")
+puts "Configuration".start_with?("C")
