@@ -62,12 +62,12 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.each_with_index.each do |element, index|
+  altered_array = array.each_with_index.each do |element, index|
     unless index == 1
     element = element + "s"
   end
   end
-  array
+  altered_array
 end
 
 puts add_s(["dog", "each", "killer", "handle"])
