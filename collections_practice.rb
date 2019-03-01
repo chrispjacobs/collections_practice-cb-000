@@ -63,10 +63,9 @@ end
 
 def add_s(array)
   array.each_with_index.collect do |element, index|
+    unless index == 1
     element = element + "s"
   end
-  array.delete(1)
-  array
 end
 
 puts add_s(["dog", "each", "killer", "handle"])
