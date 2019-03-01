@@ -64,4 +64,4 @@ def find_a_other(array)
 end
 
 
-puts find_a(["Easley", "determination", "augmentation", "thought", "pop", "rejuvenation", "amazing"])
+puts find_a_other(["Easley", "determination", "augmentation", "thought", "pop", "rejuvenation", "amazing"])
