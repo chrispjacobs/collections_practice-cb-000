@@ -53,10 +53,12 @@ end
 
 def sum_array(array)
   new_array = []
-  new_array = array.collect do |element|
-    element.class == fixnum
+  array.each do |element|
+    if element.class == fixnum
+      new_array << element
+    end
   end
-  array.inject(0) {|result, element| result + element}
+  new_array.inject(0) {|result, element| result + element}
 end
 
 puts sum_array([1, 2, 3, 4])
