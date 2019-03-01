@@ -66,6 +66,7 @@ def add_s(array)
     element = element + "s"
   end
   array.delete(1)
+  array
 end
 
 puts add_s(["dog", "each", "killer", "handle"])
