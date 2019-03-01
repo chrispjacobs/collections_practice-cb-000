@@ -32,4 +32,13 @@ def reverse_array(array)
   array.reverse
 end
 
+def kesha_maker(array)
+  array.each do |word|
+    if word.size > 2
+      word[3] = $
+    end
+  end
+  array
+end
+
 puts swap_elements(["Easley", "determination", "thought", "pop", "rejuvenation"])
