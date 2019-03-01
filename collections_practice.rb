@@ -60,6 +60,7 @@ def find_a_other(array)
   else
     i +=1
   end
+end
   array
 end
 
